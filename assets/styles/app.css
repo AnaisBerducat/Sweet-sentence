@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(to right, rgb(201, 93, 93), white)
+}
+
+.connection {
+    background-color: rgb(177, 68, 68);
+    border-radius: 15px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
