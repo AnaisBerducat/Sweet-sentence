@@ -3,14 +3,11 @@
 {% block body %}
 
 <h2 class="center">Choisis ton mood</h2>
-<div class="centre" style="flex-direction: row;">
-    <button type="button" href="/happy">Heureux</button>
+<div class="centre1" style="flex-direction: row;">
+    <button type="button"><a class="link" href="{{ path('app_happy') }}"</a>Heureux</button>
 </div>
-<div class="centre" style="flex-direction: row;">
-    <button type="button" href="/sad">Triste</button>
-</div>
-<div class="centre" style="flex-direction: row;">
-    <button type="button" href="/angry">En colère</button>
+<div class="centre1" style="flex-direction: row;">
+    <button type="button"><a class="link" href="{{ path('app_sad') }}"</a>Triste</button>
 </div>
 
 

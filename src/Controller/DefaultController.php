@@ -16,13 +16,6 @@ class DefaultController extends AbstractController {
         return $this->render('index.html.twig');
     }
 
-    /**
-    * @Route("/angry", name="app_angry")
-    */
-    public function angry(): Response
-    {
-        return $this->render('Sentences/angry.html.twig');
-    }
 
     /**
     * @Route("/sad", name="app_sad")
