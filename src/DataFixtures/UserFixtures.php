@@ -2,6 +2,7 @@
 
 namespace App\DataFixtures;
 
+use App\Entity\Admin;
 use App\Entity\User;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
@@ -17,15 +18,37 @@ class UserFixtures extends Fixture
     }
     public function load(ObjectManager $manager)
     {
-        $user = new User();
-        $user->setEmail('plop@plop.fr');
-        $user->setRoles(['ROLE_ADMIN']);
-        $user->setPassword($this->passwordHasher->hashPassword(
-                     $user,
-                     'plopinette'
-                 ));
 
-        $manager->persist($user);
+
+        // Création d’un utilisateur de type “administrateur”
+
+        $admin = new User();
+
+        $admin->setEmail('admin@monsite.com');
+
+        $admin->setRoles(['ROLE_ADMIN']);
+
+        $admin->setPassword($this->passwordHasher->hashPassword(
+
+            $admin,
+
+            'adminpassword'
+
+        ));
+
+        $admin->setGender('1');
+
+        $admin->setFirstname('erero');
+
+
+        $manager->persist($admin);
+
+
+        // Sauvegarde des 2 nouveaux utilisateurs :
+
         $manager->flush();
+
+
+
     }
 }

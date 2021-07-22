@@ -18,7 +18,7 @@ symfony server:start
 👤 **Anais Berducat**
 
 * Github: [@AnaisBerducat](https://github.com/AnaisBerducat)
-* LinkedIn: [@Anais Berducat](https://linkedin.com/in/Anais Berducat)
+* LinkedIn: [@Anais Berducat](https://www.linkedin.com/in/ana%C3%AFs-berducat/)
 
 ## Show your support
 

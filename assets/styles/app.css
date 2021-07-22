@@ -1,9 +1,67 @@
 body {
-    background: linear-gradient(to right, rgb(201, 93, 93), white)
+    background: linear-gradient(to right, rgb(201, 93, 93), white);
+    
 }
 
 .connection {
     background-color: rgb(177, 68, 68);
     border-radius: 15px;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
+.form {
+    width: 20%;
+    padding: 1%;
+    background-color: rgb(177, 68, 68);
+    border-radius: 15px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+    margin: auto;
+    transform: perspective(1px) translateY(100%);
+}
+
+.navbar-custom {
+    background-color: #f0a7b3;
+    font-size: 24px;
+}
+
+
+.nav-link {
+    color: #f15a5a !important;
+    font-size: 22px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.nav-link:hover {
+    background-color: white;
+    border-radius: 10px;
+    color: #b17c7c;
+    font-size: 24px;
+}
+
+.nav-link1 {
+    font-size: 24px;
+    color: #b17c7c;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.nav-link1:hover {
+    color: #b17c7c;
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    font-size: 26px;
+}
+
+.btn {
+    background-color: antiquewhite;
 }
