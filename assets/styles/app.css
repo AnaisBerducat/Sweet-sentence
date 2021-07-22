@@ -3,13 +3,8 @@ body {
     
 }
 
-.connection {
-    background-color: rgb(177, 68, 68);
-    border-radius: 15px;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
-}
 
-.form {
+.centre {
     width: 20%;
     padding: 1%;
     background-color: rgb(177, 68, 68);
@@ -64,4 +59,24 @@ body {
 
 .btn {
     background-color: antiquewhite;
+}
+
+button {
+    text-decoration: none;
+    background-color: #b17c7c;
+    border-radius: 5px !important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+    border: none;
+    width: 130px;
+}
+.centre {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+    flex-direction: column;
+}
+
+.center {
+    text-align: center;
+    padding-top: 2%;
 }

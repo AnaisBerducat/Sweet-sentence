@@ -6,7 +6,7 @@ security:
         app_user_provider:
             entity:
                 class: App\Entity\Admin
-                property: username
+                property: email
         users_in_memory: { memory: null }
         # used to reload user from session & other features (e.g. switch_user)
         # used to reload user from session & other features (e.g. switch_user)
@@ -39,7 +39,3 @@ security:
     access_control:
          - { path: ^/admin, roles: ROLE_ADMIN }
          - { path: ^/profile, roles: ROLE_USER }
-        
-    role_hierarchy:
-        ROLE_DETIOR: ROLE_USER
-        ROLE_ADMIN: ROLE_EDITOR
